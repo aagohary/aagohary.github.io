@@ -29,6 +29,21 @@
         <script src="js/menucollapse.js"></script>
         <script type="text/javascript" src="js/arrow78.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
+
+<style>  
+        .container {  
+            display: flex;  
+            align-items: center; /* Vertically centers the items */  
+        }  
+        .container h4 {  
+            margin: 0; /* Removes default margin around h4 */  
+        }  
+        .container a {  
+            margin-left: 10px; /* Adds space between h4 and the link */  
+            text-decoration: none; /* Optional: removes underline from the link */  
+        }  
+    </style>  
+        
     </head>
     
     <body id="page-top" class="index">
@@ -41,10 +56,9 @@
                         <img id="mobile-img" src="ahmed2.JPG" width="250" border="0" height="280" alt="">
                 </div>
                 <div align="left" class="col-md-9">
-                    <h2><b>Ahmed Elgohary Ghoneim</b> <br/>                                       
-                    <a href="https://www.linkedin.com/in/aagohary" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
-                    </h2>
-                    <h4>
+                    <h2><b>Ahmed Elgohary Ghoneim</b> <h2/>                                       
+                    <div class="container"> 
+                        <h4>
                     Email:
                         <script language="JavaScript">
                             <!--
@@ -53,6 +67,12 @@
                             -->
                         </script>
                     </h4>
+                    <h2>
+                    <a href="https://www.linkedin.com/in/aagohary" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+                    </h2
+                    </div>
+                    
+                    
                         <br/>
                     <p class="lead">
                         I am a Senior NLP Researcher at Microsoft Responsible AI focusing on LLM safety alignment and evaluation.
